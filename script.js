@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("button");
+const buttons = document.querySelectorAll("img");
 const pScore = document.getElementById("playerScore");
 const cScore = document.getElementById("computerScore");
 const divResult = document.getElementsByClassName("result");
