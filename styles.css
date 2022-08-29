@@ -8,7 +8,7 @@ html {
 body {
     height: 100vh;
     width: 100%;
-    background-color: teal;
+    background-color: #B2BABB;
 }
 h1 {
     text-align: center;
@@ -21,16 +21,20 @@ h1 {
     justify-content: space-evenly;
     gap: 25px;
 }
+.button {
+    background-color: #D5DBDB;
+    border: 5px solid lightcyan;
+}
 
 img {
     height: 300px;
     width: 300px;
     font-size: 20px;
     transition: all 0.1s;
-    border: 5px solid lightcyan;
+
 }
 
-img:hover {
+.button:hover {
     transform: scale(1.1);
     box-shadow: 2px 5px 5px lightblue;
 }
@@ -44,7 +48,8 @@ img:hover {
 }
 
  h3 {
-    font-size: 25px
+    font-size: 25px;
+    color: #1B4F72;
 }
 
 #playerScore {
@@ -60,23 +65,13 @@ span#computerScore {
     padding: 0 10px;
     border: 2px solid black;
     margin:  0 10px;
+    color: red;
+    font-size: 30px;
 }
 
-.choice {
-    border: 2px solid red;
-    transform: scale(1.1);
-}
 
 #exec {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#exec span {
-    font-size: 20px;
-    color: red;
-    font-weight: bold;
-
-
 }
